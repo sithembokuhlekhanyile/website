@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #ffb6c1;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffb6c1;
+    padding: 20px;
+}
+
+.logo {
+    order: 2;
+    
+}
+
+.logo img {
+    width: 80px;
+    
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.logo p {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #ffdab9;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.about-me {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.about-me h1 {
+    font-size: 24px;
+    color: magenta;
+}
+
+.about-me p {
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+.email img {
+    width: 25px;
+    height: auto;
+}
+
+.email a {
+    color: white;
+    text-decoration: none;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
